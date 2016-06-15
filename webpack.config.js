@@ -2,6 +2,8 @@ const path = require('path');
 const merge = require('webpack-merge');
 const webpack = require('webpack');
 
+const parts = require('./lib/parts.js');
+
 const NpmInstallPlugin = require('npm-install-webpack-plugin');
 
 const TARGET = process.env.npm_lifecycle_event;
