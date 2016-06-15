@@ -1,9 +1,5 @@
 import React from 'react';
+var styles = require('../main.css');
 
-export default() => (
-	<div>This is a test page</div>
-	<h1> Hello World</h1>
-	<ul>
-		<li>Hellllllllllllllo</li>
-	</ul>
-);
+export default() => <h1> hello World </h1>;
+
